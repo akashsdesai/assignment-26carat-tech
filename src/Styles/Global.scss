@@ -1,0 +1,12 @@
+$navBg:#1A0B2E;
+$navFont:Plus Jakarta Sans;
+$bodyFont:Preahvihear;
+$cardFont:Poppins;
+
+@mixin textStyle($color,$font, $fontSize, $fontWeight, $Lheight){
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  color: $color;
+  font-family:$font ;
+  line-height: $Lheight;
+}

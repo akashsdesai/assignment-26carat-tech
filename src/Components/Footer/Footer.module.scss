@@ -1,0 +1,34 @@
+@import '../../Styles/Global.scss';
+
+.footer{
+  margin: 220px 20% 220px 20%;
+}
+
+.contact{
+  @include textStyle(white, $bodyFont, 25px, 400, 25px);
+  margin-bottom: 73px;
+}
+
+.bottom{
+
+  p{
+    max-width: 703px;
+    @include textStyle(white, $bodyFont, 15px, 400, 25px);
+    a{
+      @include textStyle(white, $bodyFont, 15px, 400, 25px);
+      text-decoration: none;
+    }
+  }
+}
+
+.email{
+  margin:45px 0 ;
+}
+
+.links{
+  display: flex;
+  list-style:none;
+  gap:20px;
+  margin: 0;
+  padding: 0;
+}

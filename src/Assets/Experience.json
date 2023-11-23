@@ -1,0 +1,35 @@
+[
+  {
+    "id":0,
+    "bg":0,
+    "imgs":"img1.png",
+    "title":"CIB on the Mobile",
+    "description":"Take your client onboard seamlessly by our amazing tool of digital onboard process.",
+    "link":""
+  },
+  {
+    "id":1,
+    "bg":1,
+    "imgs":"img2.png",
+    "title":"CIB on the Mobile",
+    "description":"Take your client onboard seamlessly by our amazing tool of digital onboard process.",
+    "link":""
+  },
+  {
+    "id":2,
+    "bg":1,
+    "imgs":"img3.png",
+    "title":"CIB on the Mobile",
+    "description":"Take your client onboard seamlessly by our amazing tool of digital onboard process.",
+    "link":""
+  },
+  {
+    "id":3,
+    "bg":0,
+    "imgs":"img4.png",
+    "title":"CIB on the Mobile",
+    "description":"Take your client onboard seamlessly by our amazing tool of digital onboard process.",
+    "link":""
+  }
+
+]

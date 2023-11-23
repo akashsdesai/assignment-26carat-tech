@@ -1,0 +1,70 @@
+@import '../../Styles/Global.scss';
+
+@mixin card{
+  width: 100%;
+  display: flex;
+  gap:20px;
+  align-items: center;
+  border-radius: 15px;
+  border-top:4px solid #4F228D;
+}
+
+.card1{
+  @include card();
+  background: linear-gradient(110deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%);
+  box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+  background-size:200%; 
+}
+
+.card2{
+  @include card();
+  background: linear-gradient(110deg, #130428 0%, #251043 12%, #38126D 34%, #261045 57%, #190634 100%);
+  box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12)
+}
+
+.left{
+  img{
+    margin: 0 0 0 50px;
+  }
+}
+
+
+.right{
+  margin: 42px 0;
+  button{
+    margin-top:11px ;
+    padding: 10px 23px;
+    font-family: $cardFont;
+    font-size: 10px;
+    color: white;
+    line-height: 15px;
+    background: #2C1250;
+    border: 1px #693B93 solid;
+    border-radius: 10px;
+  }
+}
+
+.title{
+  @include textStyle(white, $cardFont,26px, 600,  32px);
+  margin-bottom: 11px;
+}
+
+.desc{
+  @include textStyle(white, $cardFont, 8px, 500, 10.5px);
+  max-width:232px;
+}
+
+
+@media screen and (max-width:680px) {
+  .card1, .card2{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:0;
+  }  
+  .left{
+    img{
+      margin:20px 0 0 0;
+    }
+  }
+}

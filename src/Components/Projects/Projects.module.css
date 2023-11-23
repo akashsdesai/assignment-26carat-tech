@@ -1,0 +1,9 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 155px;
+  margin-top: 170px;
+}/*# sourceMappingURL=Projects.module.css.map */

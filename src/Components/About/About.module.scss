@@ -1,0 +1,65 @@
+$fontbg: Preahvihear;
+
+.about {
+	margin: 0 78% 0 22%;
+	width: fit-content;
+	text-wrap: nowrap;
+	align-items: center;
+	font-family: $fontbg;
+	color: white;
+	margin-bottom: 100px;
+}
+.top {
+	margin-bottom: 70px;
+}
+.sub {
+	font-size: 21px;
+	font-weight: 400;
+	letter-spacing: 0.42px;
+	display: flex;
+	gap: 15px;
+}
+.title {
+	font-size: 50px;
+	letter-spacing: 1px;
+}
+.facebook {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	color: #1877F2;
+}
+.bottom {
+	max-width: 890px;
+	width: 70vw;
+	p {
+		width: 100%;
+		text-wrap: wrap;
+		font-size: 22px;
+		font-weight: 400;
+		letter-spacing: 0.44px;
+	}
+}
+
+
+@media screen and (max-width:900px) {
+  .about{
+    margin: 0 20px;
+    align-items: center;
+    width: 90vw;
+    justify-content: center;
+  }
+  .top{
+    margin-top: 80px;
+  }
+  .title{
+    text-wrap: wrap;
+    font-size: 40px;
+  }
+
+  .sub{
+    text-wrap: wrap;
+    flex-direction: column;
+  }
+
+}

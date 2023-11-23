@@ -1,0 +1,68 @@
+@import '../../Styles/Global.scss';
+
+.main{
+  justify-content: center;
+  align-items:center ;
+  display: flex;
+  flex-direction: column;
+}
+
+.head{
+  margin-top: 180px;
+  width: 100%;
+  justify-content: center;
+  align-items:center ;
+  display: flex;
+  flex-direction: column;
+  p{
+    @include textStyle(white,$bodyFont,24px,400,32px);
+    max-width:663px;
+    text-align: center;
+  }
+}
+
+.clr{
+  color: #A362FF;
+}
+
+.small{
+  font-size: 17px;
+}
+
+.skills{
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  width: 100%;
+  gap:15px;
+}
+
+.globe{
+  width: 100%;
+  margin-top: -20px;
+  z-index: -1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  img{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .globe{
+    img{
+      width:70%;
+    }
+  }
+.head{
+  width: 80%;
+  margin:180px 10% 0 10%;
+}
+.skills{
+  width: 80%;
+}
+}
