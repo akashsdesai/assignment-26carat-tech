@@ -12,4 +12,9 @@ jobs:
       - image: cimg/node:23.5.0
     steps:
       - checkout
-      - run: node --version
+      - run: 
+          name: Install Dependency
+          command: npm install
+      - run:
+          name: Run Tests
+          command: npm run test
