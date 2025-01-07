@@ -3,8 +3,7 @@ version: 2.1
 workflows:
   test-deploy:
     jobs:
-      - test:
-
+      - test  # This should be a string referring to the job name
 
 jobs:
   test:
